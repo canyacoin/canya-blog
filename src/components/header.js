@@ -1,7 +1,5 @@
 import React from "react"
-import { css } from "@emotion/core"
-import { Link, StaticQuery, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import { Link, StaticQuery, graphql } from "gatsby" 
 
 export default () => (
     <StaticQuery 
@@ -22,7 +20,7 @@ export default () => (
                 <div className="row">
                      <div className="col-12">
                         <Link to={`/`} className="navbar-brand">
-                           <img src={data.site.siteMetadata.logoUrl}></img>
+                           <img src={data.site.siteMetadata.logoUrl} alt="CanWork logo"></img>
                         </Link>        
                     </div> 
                 </div>
