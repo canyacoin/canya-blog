@@ -5,6 +5,7 @@ export default ({ children }) => (
   <main>
     <Header/>
     <div className="container-fluid">
+        <br></br>
         {children}
     </div>
   </main>
