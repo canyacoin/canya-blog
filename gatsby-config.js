@@ -2,7 +2,8 @@ module.exports = {
     siteMetadata: {
         title: `CanWork Blog`,
         description: `The CanWork Blog.`,
-        logoUrl: `https://www.canwork.io/assets/img/logo.svg`
+        logoUrl: `https://www.canwork.io/assets/img/logo.svg`,
+        author: `CanYa`
     },
     plugins: [
         `gatsby-transformer-remark`,

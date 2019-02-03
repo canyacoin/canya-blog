@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 function BlogPost (props) {
   const post = props.data.markdownRemark;
   const {title, date} = post.frontmatter;
   return (
     <Layout>
+    <SEO title={title}></SEO>
       <div className="container">
         <div className="row">
           <div className="col-12">

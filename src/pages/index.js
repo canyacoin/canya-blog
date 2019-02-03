@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql } from 'gatsby'
+import SEO from "../components/seo"
 
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return(
     <Layout>
+    <SEO title="CanWork Blog"></SEO>
       <div className="container">
         <div className="row">
           <div className="col-12">
