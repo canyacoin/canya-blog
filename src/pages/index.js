@@ -7,7 +7,7 @@ const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return(
     <Layout>
-    <SEO title="CanWork Blog"></SEO>
+    <SEO title="CanWork Blog"  keywords={[`CanWork`,`Blog`, `Freelance`, `Cryptocurrency`]} ></SEO>
       <div className="container">
         <div className="row">
           <div className="col-12">
