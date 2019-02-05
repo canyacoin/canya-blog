@@ -3,7 +3,6 @@ image: node:latest
 cache:
   paths:
     - node_modules/
-    - app/bower_components
 
 deploy_production:
   stage: deploy
@@ -16,6 +15,7 @@ deploy_production:
     - npm i gatsby-cli
     - npm install
     - npx gatsby build
-    - firebase use canwork-blog
+    - ls
     - firebase use --token $FIREBASE_DEPLOY_KEY production
+    - firebase use canwork-blog
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_DEPLOY_KEY
