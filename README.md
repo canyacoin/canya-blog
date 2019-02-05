@@ -16,7 +16,7 @@ date: '2019-02-01'
 image: 'Image Url'
 ---
 ```
-5. Write the blog as usual.
+5. Write the blog as usual, follow  guide [this](https://guides.github.com/features/mastering-markdown/) if you need to
 6. Once you're done writing the blog, fill in the commit message and click the 'commit change' button.
 7. Once commited, Gitlab's CI will do the rest for you. (WIP)
 
