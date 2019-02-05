@@ -15,7 +15,7 @@ deploy_production:
     - npm install -g bower
     - npm i gatsby-cli
     - npm install
-    - gatsby build
+    - npx gatsby build
     - firebase use canwork-blog
     - firebase use --token $FIREBASE_DEPLOY_KEY production
     - firebase deploy -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_DEPLOY_KEY
