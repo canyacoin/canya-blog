@@ -15,8 +15,8 @@ deploy_production:
     - npm install -g gatsby-cli
     - npm install
     - npx gatsby build
-    - cd public
-    - ls
+    - mkdir firebase
+    - cd firebase
     - firebase init
     - cd ..
     - cp -R public firebase

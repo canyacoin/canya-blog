@@ -12,7 +12,7 @@ electronic typesetting, remaining essentially unchanged. It was popularised in
 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus PageMaker
 including versions of Lorem Ipsum.
-
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ## Why do we use it?
 
 It is a long established fact that a reader will be distracted by the
