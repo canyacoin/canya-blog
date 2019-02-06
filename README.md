@@ -16,8 +16,10 @@ image: 'Image Url'
 ---
 ```
 4. Write the blog as usual, follow [this](https://guides.github.com/features/mastering-markdown/) guide if you need to.
-5. To upload an image, upload them to the hosting of your choice, ideally [IPFS](https://canshare.io) first, then add the image using the following syntax :
+5. To upload an image, upload them to the hosting of your choice first, then add the image using the following syntax :
 ```![image name](image-url) ```
+for example, ```![sent](https://i.imgur.com/rIru4Br.png)``` will look like :
+![sent](https://i.imgur.com/rIru4Br.png)
 6. Once you're done writing the blog, fill in the commit message and click the 'commit change' button.
 7. Once commited, Gitlab's CI will do the rest for you.
 
