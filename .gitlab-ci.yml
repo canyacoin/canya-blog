@@ -25,7 +25,6 @@ deploy_production:
     - master
   script:
     - npm install -g firebase-tools
-    - npm install -g bower
     - npm install -g gatsby-cli
     - npm install
     - npx gatsby build
