@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: `/canwork-blog`,
     siteMetadata: {
         title: `CanWork Blog`,
         description: `The CanWork Blog.`,
