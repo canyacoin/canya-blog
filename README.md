@@ -25,11 +25,10 @@ for example, ```![sent](https://i.imgur.com/rIru4Br.png)``` will look like :
 
 ## Development
 
-1. Download Gatsby CLI
-
+### 1. Download Gatsby CLI
 Run `npm i gatsby-cli` in the terminal
 
-2. Project setup 
+### 2. Project setup 
 
 Clone the repository and navigate to the project's folder, then run
 
@@ -41,7 +40,7 @@ Once everything is installed you can then run
 
 To run a local development server. You can then access it by opening `https://localhost:8000` in your browser.
 
-3. Compiling production-ready files
+### 3. Compiling production-ready files
 
 Run `gatsby build`
 
